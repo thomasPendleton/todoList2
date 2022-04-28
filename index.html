@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script async src="script.js"></script>
-    <title>Document</title>
+    <title>Todo List</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
-    
+    <h1>Todos</h1>
+    <form action="" id="form">
+      <input
+        placeholder="Enter your todo"
+        autocomplete="off"
+        type="text"
+        class="input"
+        id="input"
+      />
+      <ul class="todos" id="todos"></ul>
+    </form>
+
+    <small>
+      Left click to toggle completed.
+      <br />
+      Right click to delete todo.
+    </small>
   </body>
 </html>
